@@ -9,10 +9,9 @@ def my_each(array)
       i = i + 1
     end 
     array
-  
   else
     "no block was given"
-    
+  end 
 end
 
 my_each(collection) do |i|
