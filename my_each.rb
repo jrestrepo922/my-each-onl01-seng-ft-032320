@@ -1,4 +1,4 @@
-words = ['hi', 'hello', 'bye', 'goodbye']
+collection = [1, 2, 3, 4]
 
 def my_each(array) 
   if block_given?  
