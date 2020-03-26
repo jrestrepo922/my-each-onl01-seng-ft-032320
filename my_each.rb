@@ -14,4 +14,6 @@ def my_each(array)
     "no block was given"
 end
 
-my_each(collection)
+my_each(collection) do |i|
+  puts i
+end
