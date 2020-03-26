@@ -1,5 +1,5 @@
-array = [1, 2, 3, 4]
+words = ['hi', 'hello', 'bye', 'goodbye']
 
-def my_each(array) # put argument(s) here
+def my_each(words) 
   # code here
 end
