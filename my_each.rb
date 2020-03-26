@@ -14,3 +14,4 @@ def my_each(array)
     "no block was given"
 end
 
+my_each(collection)
