@@ -1,7 +1,7 @@
-
+words = ['hi', 'hello', 'bye', 'goodbye']
 
 def my_each(array) 
-
+  if block_given?  
     i = 0 
     
     while array.length > i 
@@ -10,6 +10,8 @@ def my_each(array)
     end 
     array
   end 
-
+  else
+    "no block was given"
 end
 
+my_each(collection)
